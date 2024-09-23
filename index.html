@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Negociação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Simulador de Negociação</h1>
+        <div id="game-screen" class="hidden">
+            <h2 id="proposal"></h2>
+            <div id="history"></div>
+            <input type="number" id="counteroffer" placeholder="Sua contraproposta (R$)">
+            <button id="accept-button">Aceitar</button>
+            <button id="reject-button">Rejeitar</button>
+            <button id="counter-button">Contrapropor</button>
+            <button id="next-button" class="hidden">Próximo</button>
+        </div>
+        <div id="start-screen">
+            <button id="start-button">Iniciar Jogo</button>
+        </div>
+        <div id="end-screen" class="hidden">
+            <h2 id="result-message"></h2>
+            <button id="restart-button">Reiniciar Jogo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
